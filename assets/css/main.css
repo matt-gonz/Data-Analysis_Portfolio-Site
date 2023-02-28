@@ -4653,13 +4653,35 @@ input, select, textarea {
 					line-height: 4rem;
 				}
 
-				iframe {
-					height: 500px;
-				}
+
 
 			}
 
 		@media screen and (max-width: 980px) {
+
+			#navPanel {
+				display: block;
+			}
+
+
+		}
+
+
+
+
+		@media screen and (max-width: 4000px) {
+
+			#navPanel {
+				display: block;
+			}
+
+			iframe {
+				height: 800px;
+			}
+
+		}
+
+		@media screen and (max-width: 600px) {
 
 			#navPanel {
 				display: block;
@@ -4671,6 +4693,7 @@ input, select, textarea {
 
 		}
 
+		
 		@media screen and (max-width: 736px) {
 
 			#navPanel {
